@@ -1,0 +1,9 @@
+version: '3'
+
+services:
+  useafterfree:
+	 build: .
+	 container_name: useafterfree
+	 restart: always
+	 ports:
+	   -"31336:31336"
